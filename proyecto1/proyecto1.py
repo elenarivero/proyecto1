@@ -18,7 +18,7 @@ def index()-> rx.Component:
                 max_width=MAX_WIDTH,
                 width="100%",
                 align="center",
-                margin_y=Spacer.BIG
+                margin_y=Size.BIG
                 )
             ),            
             footer()
@@ -26,6 +26,7 @@ def index()-> rx.Component:
 
 
 
-app = rx.App()
+app = rx.App(style=BASE_STYLE)
+
 app.add_page(index)
 app._compile()
