@@ -10,5 +10,4 @@ class State(rx.State):
 
 app = rx.App(style=BASE_STYLE)
 
-app._compile()
 
