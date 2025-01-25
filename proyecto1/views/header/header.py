@@ -1,14 +1,10 @@
 import reflex as rx
+from proyecto1.styles.colors import *
 
 def header() -> rx.Component:
     return rx.vstack(
-        rx.hstack(
-            rx.avatar(fallback = "ER", size="5", radius="full"),
-            rx.vstack(
-                rx.text("@elenarivero"),
-                rx.text("HOLA, MI NOMBRE ES ELENA RIVERO", margin_top="0px !important"),
-                spacing="0"
-            )
-        ),
-        align_items="start"
+        rx.avatar(fallback = "ER", size="3", radius="full"),
+        rx.text("@elenarivero", color=TextColor.BODY),
+        rx.text("HOLA, MI NOMBRE ES ELENA RIVERO", color=TextColor.BODY),
+        align="center"
     )
