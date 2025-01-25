@@ -1,4 +1,5 @@
 import reflex as rx
+from proyecto1.styles.styles import *
 
 def navbar() -> rx.Component:
     # Como queremos colocar los componentes en horizontal utilizamos hstack
@@ -13,11 +14,12 @@ def navbar() -> rx.Component:
         # position sticky significa que queda fija
         position="sticky",
         # ponemos un color de fondo
-        bg = "blue",
+        bg = "lightgray",
         # marcamos un padding en el eje x
-        padding_x = "16px",
+        padding_x = Size.DEFAULT,
         # marcamos un padding en el eje y
-        padding_y = "8px",
+        padding_y = Size.SMALL,
         # le ponemos una prioridad alta para que siempre esté visible
-        z_index = "999"
+        z_index = "999",
+        top = 0
     )

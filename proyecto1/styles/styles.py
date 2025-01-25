@@ -36,7 +36,7 @@ button_body_style = dict(
 )
 
 title_style = dict(
-    size ="1",
+    size ="1", #no funciona
     width="100%",
     padding_top = Size.DEFAULT
 )

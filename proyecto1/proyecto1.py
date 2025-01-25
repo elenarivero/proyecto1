@@ -20,13 +20,13 @@ def index()-> rx.Component:
                 align="center",
                 margin_y=Size.BIG
                 )
-            ),            
+            ),
+           
             footer()
         )
 
 
 
 app = rx.App(style=BASE_STYLE)
-
 app.add_page(index)
 app._compile()

@@ -8,6 +8,13 @@ def links() -> rx.Component:
         link_button("Twitch", "Directos de lunes a viernes", "https://www.twitch.tv/"),
         link_button("YouTube", "Tutoriales semanales", "https://www.youtube.com/"),
         link_button("Discord", "El chat de la comunidad", "https://discord.com/"),
+
+        title("Comunidad"),
+        link_button("Twitch", "Directos de lunes a viernes", "https://www.twitch.tv/"),
+        link_button("YouTube", "Tutoriales semanales", "https://www.youtube.com/"),
+        link_button("Discord", "El chat de la comunidad", "https://discord.com/"),
+      
         align="center",
-        width="100%"
+        width="100%"       
+        
     )
